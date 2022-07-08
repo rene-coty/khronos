@@ -1,21 +1,23 @@
-# ITALIAN TRANSLATION FOR KHRONOS.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.lainsce.khronos package.
-# ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021,2022.
+# This file is distributed under the same license as the io.github.lainsce.Khronos package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.lainsce.khronos\n"
+"Project-Id-Version: io.github.lainsce.Khronos\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 23:06+0100\n"
-"PO-Revision-Date: 2022-06-25 25:08+0100\n"
-"Last-Translator: albano battistella <albano_battistella@hotmail.com>\n"
-"Language-Team: Italian<LL@li.org>\n"
-"Language: it\n"
+"POT-Creation-Date: 2021-11-29 23:07+0100\n"
+"PO-Revision-Date: 2022-05-31 15:53+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: \n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:6
 #: data/io.github.lainsce.Khronos.desktop.in:3
@@ -24,19 +26,19 @@ msgstr "Khronos"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:7
 msgid "Log the time it took to do tasks"
-msgstr "Registra il tempo impiegato per svolgere le attività"
+msgstr "תיעוד הזמן שנדרש לביצוע משימות"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:9
 msgid ""
 "Start logging any task's time to completion, with the ability to stop the "
 "timer at any moment, with notifications for longer task sessions."
 msgstr ""
-"Inizia a registrare il tempo di completamento di qualsiasi attività, con la possibilità di interrompere il "
-"timer in qualsiasi momento, con notifiche per sessioni di attività più lunghe."
+"אפשר להתחיל לתעד את הזמן שלקח להשלים כל משימה שהיא, עם אפשרות לעצור את "
+"המתזמן בכל עת, עם התראות למשימות ארוכות יותר."
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:11
 msgid "Quit anytime with the shortcut Ctrl + Q"
-msgstr "Esci in qualsiasi momento con la scorciatoia Ctrl + Q"
+msgstr "ניתן לצאת בכל עת עם קיצור המקשים Ctrl + Q"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:21
 msgid "Lains"
@@ -44,136 +46,135 @@ msgstr "Lains"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:47
 msgid "Release: UI Refreshments"
-msgstr "Rilascio: Aggiornamenti all'interfaccia utente"
+msgstr "במהדורה: רענוני מנשק משתמש"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:49
 msgid "Changed: The UI is now with a better layout."
-msgstr "Modificato: l'interfaccia utente è ora con un layout migliore."
+msgstr "שינויים: פריסת מנשק המשתמש השתפרה."
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:55
 msgid "Release: Port to GTK4"
-msgstr "Versione: port su GTK4"
+msgstr "במהדורה: הסבה ל־GTK4"
 
 #: data/io.github.lainsce.Khronos.appdata.xml.in:57
 msgid "Changed: Rewritten for GTK4."
-msgstr "Modificato: riscritto per GTK4."
+msgstr "שינויים: שכתוב מחדש ל־GTK4."
 
 #: data/io.github.lainsce.Khronos.desktop.in:4
 msgid "Track each task time in a simple inobtrusive way"
-msgstr "Tieni traccia di ogni attività in modo semplice e non invadente"
+msgstr "מעקב אחר זמן שלוקח לבצע משימה בצורה פשוטה ולא מתבלטת"
 
 #: data/io.github.lainsce.Khronos.desktop.in:11
 msgid "Plot;Planning;Time Tracking;"
-msgstr "Tracciare, pianificazione, monitoraggio del tempo;"
+msgstr "תכנון;מעקב;תיעוד זמן;מעקב זמן;מעקב משימות;ביצוע מטלות;ביצוע משימות;"
 
 #: data/io.github.lainsce.Khronos.gschema.xml:5
 msgid "Delay between notifications"
-msgstr "Ritardo tra le notifiche"
+msgstr "השהיה בין התראות"
 
 #: data/io.github.lainsce.Khronos.gschema.xml:6
 msgid "The delay between two notifications, default is 30min. in seconds."
-msgstr "The delay between two notifications, default is 30min. in seconds."
+msgstr "ההפרש בין שתי התראות, ברירת המחדל היא 30 דקות, בשניות."
 
 #: data/ui/main_window.ui:6
 msgid "Export Logs as CSV…"
-msgstr "Esporta Log come CSV…"
+msgstr "ייצוא יומנים כ־CSV…"
 
 #: data/ui/main_window.ui:10
 msgid "Import Logs from CSV…"
-msgstr "Importa Log da CSV…"
+msgstr "ייבוא יומנים מ־CSV…"
 
 #: data/ui/main_window.ui:16
 msgid "About Khronos"
-msgstr "Informazioni su Khronos"
+msgstr "על Khronos"
 
 #: data/ui/main_window.ui:53
 msgid "Timer"
-msgstr "Timer"
+msgstr "מתזמן"
 
 #: data/ui/main_window.ui:77
 msgid "Log name…"
-msgstr "Nome log…"
+msgstr "שם היומן…"
 
 #: data/ui/main_window.ui:96
 msgid "Adds a log to the list"
-msgstr "Aggiunge un log all'elenco"
+msgstr "מוסיף יומן לרשימה"
 
 #: data/ui/main_window.ui:106 src/MainWindow.vala:161
 msgid "Starts the timer for a log"
-msgstr "Avvia il timer per un log"
+msgstr "מתחיל את המתזמן ליומן"
 
 #: data/ui/main_window.ui:122
 msgid "Logs"
-msgstr "Log"
+msgstr "יומנים"
 
 #: data/ui/main_window.ui:148
 msgid "Removes all logs from the list"
-msgstr "Rimuove tutti i log dall'elenco"
+msgstr "מסיר את כל היומנים מהרשימה"
 
 #: data/ui/main_window.ui:180
 msgid "No Logs"
-msgstr "Nessun Log"
+msgstr "אין יומנים"
 
 #: data/ui/main_window.ui:188
 msgid "Add a log on Timer tab and check later."
-msgstr "Aggiungi un log nella scheda Timer e controlla in seguito."
+msgstr "ניתן להוסיף יומן בלשונית המתזמן ולבדוק מאוחר יותר."
 
 #: src/MainWindow.vala:153
 msgid "Stops the timer for a log"
-msgstr "Arresta il timer per un log"
+msgstr "עוצר את המתזמן ליומן"
 
 #: src/MainWindow.vala:186
 msgid "Empty the Logs List?"
-msgstr "Svuotare l'elenco dei log?"
+msgstr "לפנות את רשימת היומנים?"
 
 #: src/MainWindow.vala:187
 msgid ""
 "Emptying this list means all the logs in it will be permanently lost with no "
 "recovery."
 msgstr ""
-"Svuotare questo elenco significa che tutti i log in esso contenuti verranno definitivamente persi senza "
-"possibilità di recupero."
+"פינוי הרשימה הזאת יוביל לכך שכל היומנים יאבדו לחלוטין ללא אפשרות לשחזור."
 
 #: src/MainWindow.vala:189
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "ביטול"
 
 #: src/MainWindow.vala:190
 msgid "Empty List"
-msgstr "Elenco vuoto"
+msgstr "פינוי הרשימה"
 
 #: src/MainWindow.vala:307
 msgid "Go rest for a while before continuing."
-msgstr "Riposati un po' prima di continuare."
+msgstr "אפשר ללכת לנוח קצת לפני המשך ביצוע המשימה."
 
 #: src/MainWindow.vala:316
 msgid "Maybe grab a snack before continuing."
-msgstr "Magari fai uno spuntino prima di continuare."
+msgstr "אפשר ללכת לנשנש משהו לפני המשך ביצוע המשימה."
 
 #: src/MainWindow.vala:325
 msgid "Perhaps go get some coffee or tea before continuing."
-msgstr "Magari vai a prendere un caffè o un tè prima di continuare."
+msgstr "אולי אפשר ללכת לשתות קפה או תה לפני המשך ביצוע המשימה."
 
 #: src/MainWindow.vala:334
 msgid "That's a big task. Let's rest a bit before continuing."
-msgstr "Questo è un grande compito. Riposiamoci un po' prima di continuare."
+msgstr "זאת משימה גדולה. עדיף לנוח קצת לפני שממשיכים בה."
 
 #: src/MainWindow.vala:343
 msgid "Amazing work! But please rest a bit before continuing."
-msgstr "Lavoro fantastico! Ma per favore riposati un po' prima di continuare."
+msgstr "עבודה מצוינת! אבל בבקשה, עדיף לנוח קצת לפני המשך ביצוע המשימה."
 
 #: src/MainWindow.vala:387
 msgid "Track each task's time in a simple inobtrusive way."
-msgstr "Tieni traccia del tempo di ogni attività in modo semplice e non invadente."
+msgstr "מעקב אחר התזמון של כל אחת מהמשימות בצורה פשוטה ולא מתבלטת."
 
 #: src/MainWindow.vala:393
 msgid "translator-credits"
-msgstr "Albano Battistella"
+msgstr "ירון שהרבני <sh.yaron@gmail.com>"
 
 #: src/Services/Dialog.vala:23 src/Services/Dialog.vala:44
 msgid "CSV files"
-msgstr "File CSV"
+msgstr "קובצי CSV"
 
 #: src/Services/Dialog.vala:27 src/Services/Dialog.vala:48
 msgid "All files"
-msgstr "Tutti i file"
+msgstr "כל הקבצים"
